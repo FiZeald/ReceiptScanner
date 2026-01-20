@@ -2,9 +2,10 @@
 
 [![Expo](https://img.shields.io/badge/Maintained%20with-Expo-000020.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+Hey there! This is my **first-ever mobile app** built using **Expo**. I was tired of losing paper receipts and having no idea where my money went at the end of the month, so I decided to build a solution for it.
+It’s a handy little tool that turns your messy pile of receipts into a clean, digital financial overview.
 
-A sophisticated finance management solution built with **React Native and Expo**. This application bridges the gap between physical transactions and digital financial tracking by leveraging advanced OCR technology.
-
+Under development!
 ---
 
 ## 📋 Project Overview
@@ -34,4 +35,4 @@ This project represents my debut in mobile development using the **Expo** ecosys
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/username/project-name.git](https://github.com/username/project-name.git)
+   git clone [https://github.com/FiZeald/ReceiptScanner](https://github.com/FiZeald/ReceiptScanner)
