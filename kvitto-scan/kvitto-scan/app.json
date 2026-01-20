@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "kvitto-scan",
+    "slug": "kvitto-scan",
+    "version": "1.0.0",
+    "scheme": "kvitto-scan",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dittnamn.kvittoscan"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dittnamn.kvittoscan"
+    },
+    "plugins": [
+      "expo-router",
+      "react-native-document-scanner-plugin",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Tillåt kvitto-scan att använda kameran för att skanna kvitton.",
+          "microphonePermission": "Tillåt kvitto-scan att använda mikrofonen.",
+          "recordAudioAndroid": true
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
