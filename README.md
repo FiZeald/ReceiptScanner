@@ -29,7 +29,7 @@ This project represents my debut in mobile development using the **Expo** ecosys
 * **Framework:** React Native via Expo SDK
 * **State Management:** [React Context API]
 * **Image Processing:** [e.g., Expo Camera / Google Cloud Vision] [In my case: Still under trial and error]
-* **Data Persistence:** [e.g., AsyncStorage / Firebase] [In my case: On prem LXC]
+* **Data Persistence:** [e.g., AsyncStorage / Firebase] [In my case: MySQL DB]
 
 ## 🏗 Installation & Local Development
 
