@@ -14,7 +14,7 @@ This project represents my debut in mobile development using the **Expo** ecosys
 ## 🚀 Core Functionalities
 
 ### 🔍 Intelligent Data Extraction
-* **Smart OCR Scanning:** Automated extraction of merchant metadata, transaction dates, line-item totals, and tax data with high-precision Optical Character Recognition.
+* **Smart OCR Scanning:** Automated extraction of merchant metadata, transaction dates, line-item totals, and tax data with high-precision Optical Character Recognition. Warranty timer where u can choose period of time, that gives you the possibility to get a notification when it is starting to get due.
 * **Multi-Currency Support:** Global financial compatibility with automated exchange rate conversion for international transactions.
 
 ### 📊 Financial Intelligence
@@ -27,9 +27,9 @@ This project represents my debut in mobile development using the **Expo** ecosys
 
 ## 🛠 Technical Implementation
 * **Framework:** React Native via Expo SDK
-* **State Management:** [e.g., Redux Toolkit / Context API]
-* **Image Processing:** [e.g., Expo Camera / Google Cloud Vision]
-* **Data Persistence:** [e.g., AsyncStorage / Firebase]
+* **State Management:** [React Context API]
+* **Image Processing:** [e.g., Expo Camera / Google Cloud Vision] [In my case: Still under trial and error]
+* **Data Persistence:** [e.g., AsyncStorage / Firebase] [In my case: On prem LXC]
 
 ## 🏗 Installation & Local Development
 
